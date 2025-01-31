@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: "Roboto", serif;
+}
+.head{
+    background-image:url(https://www.espacemanager.com/sites/default/files/uit_9.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.start {
+    padding: 0px 20px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.links {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin: 0;
+    border: none;
+    outline: none;
+}
+.links:hover{
+    color: rgb(211, 46, 46);
+}
+.btn {
+    background-color: rgb(50, 117, 194);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+  }
+.btn:hover{
+    color: rgb(211, 46, 46);
+}
