@@ -50,11 +50,34 @@
     padding-top: 5%;
     padding-bottom: 18%;
   }
-.b{
+.clubs{
   color: rgb(17, 17, 78);
-
+  height: 50px;
 }
-.a{
+.title2{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.badminton{
+  width: 25%;
+}
+.activitesscolaire{
+  padding-top: 5%;
   display: flex;
   justify-content: center;
 }
+.right{
+  padding-left: 3%;
+  padding-top: 7%;
+}
+.p1{
+  width: 400px;
+  line-height: 2;
+}
+.activitessportives{
+  color: rgb(17, 17, 78);
+}
+.left{  
+  padding-right: 3%;
+  padding-top: 7%;}
