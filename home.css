@@ -1,56 +1,70 @@
 body {
-    margin: 0;
-    font-family: "Roboto", serif;
+  margin: 0;
+  font-family: "Roboto", serif;
 }
-.navbar{
-    background-image:url(https://www.espacemanager.com/sites/default/files/uit_9.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.navbar {
+  background-image: url(https://www.espacemanager.com/sites/default/files/uit_9.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 .start {
-    padding: 0px 20px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-.links {
-    text-decoration: none;
-    color: rgb(255, 255, 255);
-    margin: 0;
-    border: none;
-    outline: none;
-    font-family: "Roboto", serif;
-    padding: 50px 20px;
-
+  padding-right: 70px;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 6px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.links:hover{
-    color: rgb(211, 46, 46);
+.start img{
+  width: 7%;
+}
+.links {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 0;
+  border: none;
+  outline: none;
+  font-family: "Roboto", serif;
+  padding: 50px 20px;
+}
+.links:hover {
+  color: rgb(211, 46, 46);
 }
 .btn {
-    color: white;
-    border: none;
-    outline: none;
-    padding: 10px 10px;
-    text-decoration: none;
-  }
-
-.btn:hover{
-    color: rgb(211, 46, 46);
-}
-h2{
-    padding-left: 10%;
-    width: fit-content;
+  color: white;
+  border: none;
+  outline: none;
+  padding: 10px 10px;
+  text-decoration: none;
 }
 
-.head{
-    display: flex;
-    height: 200px;
-    align-items: stretch;
+.btn:hover {
+  color: rgb(211, 46, 46);
 }
-.a{
-    display: flex;
-    width: 25%;
-    padding-left: 10%;
-    padding-top: -15%;
+
+.head {
+  display: flex;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.left {
+  padding-left: 90px;
+  width: 600px;
+  align-items:baseline;
+}
+.right {
+  padding-right: 90px;
+}
+.vid {
+  width: 450px;
+  height: 250px;
+}
+.left h1{
+  color:white;
+}
+.left p{
+  color: white;
 }
