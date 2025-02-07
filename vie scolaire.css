@@ -81,3 +81,23 @@
 .left{  
   padding-right: 3%;
   padding-top: 7%;}
+.images{
+  display: flex;
+  justify-content: center;
+}
+.img1{
+  width: 25%;
+  height: 507px;
+}
+.img2{
+  width: 25%;
+  height: 507px;
+}
+.img3{
+  width: 25%;
+  height: 507px;
+}
+.title3{
+  display: flex;
+  justify-content: center;
+}
