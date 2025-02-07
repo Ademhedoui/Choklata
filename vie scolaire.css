@@ -43,3 +43,18 @@
     background-position: center;
     background-repeat: no-repeat;
   }
+.title{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 20%;
+    padding-top: 5%;
+    padding-bottom: 18%;
+  }
+.b{
+  color: rgb(17, 17, 78);
+
+}
+.a{
+  display: flex;
+  justify-content: center;
+}
