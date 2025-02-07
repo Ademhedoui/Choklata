@@ -9,8 +9,8 @@ body {
   background-repeat: no-repeat;
 }
 .start {
-  padding-right: 70px;
-  padding-left: 40px;
+  padding-right: 120px;
+  padding-left: 120px;
   padding-top: 15px;
   padding-bottom: 6px;
   display: flex;
@@ -44,7 +44,16 @@ body {
 .btn:hover {
   color: rgb(211, 46, 46);
 }
-
+.title{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.title h1{
+  color:white
+}
 .head {
   display: flex;
   height: 200px;
@@ -57,7 +66,6 @@ body {
 .left {
   padding-left: 90px;
   width: 600px;
-  align-items:baseline;
 }
 .right {
   padding-right: 90px;
@@ -66,9 +74,7 @@ body {
   width: 450px;
   height: 250px;
 }
-.left h1{
+.left h3{
   color:white;
-}
-.left p{
-  color: white;
+  text-align: center;
 }
