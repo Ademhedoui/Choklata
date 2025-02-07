@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: "Roboto", serif;
 }
-.head{
+.navbar{
     background-image:url(https://www.espacemanager.com/sites/default/files/uit_9.jpg);
     background-size: cover;
     background-position: center;
@@ -20,16 +20,37 @@ body {
     margin: 0;
     border: none;
     outline: none;
+    font-family: "Roboto", serif;
+    padding: 50px 20px;
+
 }
 .links:hover{
     color: rgb(211, 46, 46);
 }
 .btn {
-    background-color: rgb(50, 117, 194);
     color: white;
     border: none;
-    padding: 10px 20px;
+    outline: none;
+    padding: 10px 10px;
+    text-decoration: none;
   }
+
 .btn:hover{
     color: rgb(211, 46, 46);
+}
+h2{
+    padding-left: 10%;
+    width: fit-content;
+}
+
+.head{
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+}
+.a{
+    display: flex;
+    width: 25%;
+    padding-left: 10%;
+    padding-top: -15%;
 }
