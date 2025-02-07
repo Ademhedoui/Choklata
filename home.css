@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", serif;
 }
 .navbar {
-  background-image: url(https://www.espacemanager.com/sites/default/files/uit_9.jpg);
+  background-image: url(uit_9.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -19,6 +19,7 @@ body {
 }
 .start img{
   width: 7%;
+  filter: brightness(90%);
 }
 .links {
   text-decoration: none;
@@ -49,6 +50,9 @@ body {
   height: 200px;
   align-items: center;
   justify-content: space-evenly;
+  padding-bottom: 40px;
+  padding-top: 30px;
+  padding-right: 70px;
 }
 .left {
   padding-left: 90px;
