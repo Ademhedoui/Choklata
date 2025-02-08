@@ -1,6 +1,6 @@
 .start {
-    padding-right: 70px;
-    padding-left: 40px;
+    padding-right: 120px;
+    padding-left: 120px;
     padding-top: 15px;
     padding-bottom: 6px;
     display: flex;
@@ -66,6 +66,7 @@
   padding-top: 5%;
   display: flex;
   justify-content: center;
+  padding-bottom: 5%;
 }
 .right{
   padding-left: 3%;
@@ -84,6 +85,7 @@
 .images{
   display: flex;
   justify-content: center;
+  padding-bottom: 15px;
 }
 .img1{
   width: 25%;
